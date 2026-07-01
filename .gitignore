@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# SwiftPM
+.build/
+.swiftpm/
+Package.resolved
+
+# 配布物（git 履歴には含めず Release アセットとしてのみ配布）
+*.xcframework
+*.xcframework.zip
+*.zip
+*.tar.gz
